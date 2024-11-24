@@ -53,7 +53,7 @@ app.post('/addUser', (req, res) => {
 });
 
 // Обслуживание HTML файлов
-app.use(express.static('Public'));
+app.use(express.static('docs'));
 
 const port = 3000;
 app.listen(port, () => {
