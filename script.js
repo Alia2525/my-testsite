@@ -7,6 +7,7 @@ const config = {
     user: 'sa',
     password: '143',
     server: '194.0.88.126',
+    port: 1433,
     database: 'users_db',
     options: {
         encrypt: true,
