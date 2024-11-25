@@ -4,9 +4,9 @@ const sql = require('mssql');
 
 // Настройки подключения к базе данных
 const config = {
-    user: 'process.env.sa',
+    user: 'sa',
     password: '143',
-    server: ' 192.168.0.103',
+    server: '194.0.88.126',
     database: 'users_db',
     options: {
         encrypt: true,
