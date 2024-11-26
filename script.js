@@ -5,7 +5,7 @@ const sql = require('mssql');
 // Настройки подключения к базе данных
 const config = {
     user: 'sa',
-    password: '143',
+    password: '12345',
     server: '194.0.88.126', // Замените на IP вашего сервера
     port: 1433, // Указываем порт 1433
     database: 'users_db',
