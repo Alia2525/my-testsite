@@ -6,7 +6,7 @@ const sql = require('mssql');
 const config = {
     user: 'ad',
     password: '143',
-    server: '194.0.88.126', // Замените на IP вашего сервера
+    server: 'aliahostname.ddns.net', // Замените на IP вашего сервера
     port: 1433, // Указываем порт 1433
     database: 'users_db',
     options: {
