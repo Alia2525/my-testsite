@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+
 const sql = require('mssql');
 
 // Настройки подключения к базе данных
@@ -57,7 +58,7 @@ app.post('/addUser', (req, res) => {
 // Обслуживание HTML файлов
 app.use(express.static('docs'));
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`Сервер работает на http://localhost:${port}`);
 });
